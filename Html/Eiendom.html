@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <script src="https://www.gstatic.com/firebasejs/8.6.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.0/firebase-firestore.js"></script>
+    <script src="../Script/Eiendom.js" defer></script>
+</head>
+
+<body>
+    <a href="../Index.html">Home</a>
+    <form onsubmit="Send(); return false">
+        <h3>Adresse</h3>
+        <input id=Adresse type="text" placeholder="Adresse" required>
+
+
+        <h3>Postnummer</h3>
+        <input id=Postnummer type="text" placeholder="Postnummer" required>
+
+
+        <h3>Postadresse</h3>
+        <input id=Poststed type="text" placeholder="Postadress" required>
+
+
+        <h3>Kommune</h3>
+        <input id=Kommune type="text" placeholder="Kommune" required>
+
+
+        <h3>Eiendomsnummer</h3>
+        <input id=Eiendomsnummer type="text" placeholder="Eiendomsnummer" required>
+
+
+        <h3>Areal</h3>
+        <input id=Areal type="text" placeholder="Areal" required>
+
+        <h3>Personnumber</h3>
+        <input id=Personnumber type="text" placeholder="Personnumber" required>
+
+        <button type="submit">Lagre Eiendom</button>
+
+    </form>
+    <ul></ul>
+
+</body>
+
+</html>

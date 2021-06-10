@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <script src="https://www.gstatic.com/firebasejs/8.6.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.0/firebase-firestore.js"></script>
+    <script src="../Script/Biler.js" defer></script>
+</head>
+
+<body>
+    <a href="../Index.html">Home</a>
+    <form onsubmit="Send(); return false">
+        <h3>Kjøretøytype</h3>
+        <input id=Kjøretøytype type="text" placeholder="Kjøretøytype" required>
+
+
+        <h3>Eier</h3>
+        <input id=Eier type="text" placeholder="Eier" required>
+
+
+        <h3>Drivstofftype</h3>
+        <input id=Drivstofftype type="text" placeholder="Drivstofftype" required>
+
+
+        <h3>Registreringsår</h3>
+        <input id=Registreringsår type="text" placeholder="00/00/000" required>
+
+
+        <h3>Chassisnummer</h3>
+        <input id=Chassisnummer type="text" placeholder="Chassisnummer" required>
+
+
+        <h3>Antall seter</h3>
+        <input id=antallseter type="text" placeholder="Antall seter" required>
+
+        <h3>Vekt</h3>
+        <input id=Vekt type="text" placeholder="vekt" required>
+
+        <h3>Personnumber</h3>
+        <input id=Personnumber type="text" placeholder="Personnumber" required>
+
+        <button type="submit">Lagre Biler</button>
+
+    </form>
+    <ul></ul>
+
+</body>
+
+</html>

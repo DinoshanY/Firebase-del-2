@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <script src="https://www.gstatic.com/firebasejs/8.6.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.0/firebase-firestore.js"></script>
+    <script src="../Script/Script.js" defer></script>
+    <script src="../Script/Why.js" defer></script>
+
+</head>
+
+<body>
+    <a href="../Index.html">Home</a>
+    <form onsubmit="Send(); return false">
+        <h3>Fornavn</h3>
+        <input id=Fornavn type="text" placeholder="Fornavn" required>
+
+
+        <h3>Etternavn</h3>
+        <input id=Etternavn type="text" placeholder="Etternavn" required>
+
+
+        <h3>fødselsdato</h3>
+        <input id=fødselsdato type="text" placeholder="00/00/0000" required>
+
+
+        <h3>Personnumber</h3>
+        <input id=Personnumber type="number" placeholder="00000000" pattern="[0-9].*" required>
+
+
+        <h3>Postaddrese</h3>
+        <input id=Postaddrese type="text" placeholder="Postaddrese" required>
+
+
+        <button type="submit">Lagre Person</button>
+
+    </form>
+    <ul></ul>
+
+</body>
+
+</html>
